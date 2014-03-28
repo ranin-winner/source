@@ -414,7 +414,82 @@ a:hover{
 
 /*================================>> Footer <<========================================*/
 footer {
-  padding:22px 0 26px;
+  padding:23px 0 26px;
+  background: #3f4246;
+}
+footer a{
+  color: #737475;
+}
+footer a:hover{
+  color: #b4b4b4;
+}
+footer h5{
+  color: #b4b4b4; 
+  font-weight: 100;
+}
+.footer_shell{
+  width: 1040px; 
+  margin: 0 auto;
+}
+.footer_list1, .footer_list2, .footer_list3, .footer_list4, .footer_list5{
+  float: left;
+  line-height: 17px;
+}
+.footer_list1{margin-right: 25px}
+.footer_list2{margin-right: 30px}
+.footer_list3{margin: 25px 35px 0 0}
+.footer_list4{margin-right: 33px}
+.footer_title1, .footer_title2, .footer_title3{
+  margin: 0 0 8px 0; 
+}
+.footer_list4_item{
+  margin-top: 8px;
+}
+.footer_list4_item:first-child{
+  margin-top: 0;
+}
+.footer_right{
+  margin-right: 24px;
+}
+.footer_right_p1{
+  margin-bottom: 3px;
+  color: #868686;
+}
+.footer_right_p2{
+  margin-bottom: 16px;
+  color: #868686;
+}
+.footer_right_p3{
+  float: left;
+  margin: 20px 0 0 9px;
+  color: #b4b4b4;
+  line-height: 16px;
+}
+.cta{
+  margin-left: 1px;
+}
+.footer_links{
+  margin-top: 25px;
+}
+.footer_link_mail, .footer_link_hot, .footer_link_img{
+  float: left;
+}
+.footer_link_mail, .footer_link_hot{
+  border: 1px solid #54575a;
+  font-size: 10px;
+}
+.footer_link_mail{padding: 8px 23px 8px 21px;margin-left: 1px;}
+.footer_link_hot{padding: 8px 19px 8px 20px;margin: 0 9px 0 8px;}
+.footer_link_mail:hover{
+  border: 1px solid #b4b4b4;
+} 
+.footer_link_hot:hover{
+  border: 1px solid #b4b4b4;
+}
+.copirate{
+  margin-top: 36px;
+  color: #868686;
+  font-weight: bold;
 }
 .social{
   overflow:hidden;
